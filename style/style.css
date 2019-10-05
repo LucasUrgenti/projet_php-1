@@ -2,7 +2,7 @@ body {
   /*  display: flex; */
     background-color: lightgrey;
 }
-#header {
+.header {
     display: flex;
     justify-content: flex-start;
 }
