@@ -19,7 +19,7 @@ body {
 .section {
   display: flex;
   justify-content: center;
-  margin: 300px; 
+  margin: 250px; 
 }
 
 @media screen and (max-width:650px) /* version mobile menu point de rupture 650 */
