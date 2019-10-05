@@ -2,7 +2,7 @@
   <html>
     <head lang="fr">
       <meta charset="UTF-8">
-      <link rel="stylesheet" href="www/projet_php/style/style.php">
+      <link rel="stylesheet" href="www/projet_php/style/style.css">
       <title> FreeNote </title>
     </head>
     <body>
@@ -29,7 +29,7 @@
       </article>
       </aside>
       <footer>
-          <p> footer </p>
+          <p> footer test  </p>
       </footer>
     </body>
   </html>
