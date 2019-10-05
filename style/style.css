@@ -1,10 +1,14 @@
 body {
-  /*  display: flex; */
+    display: flex; 
     background-color: lightgrey;
 }
 .header {
     display: flex;
     justify-content: flex-start;
+}
+.section {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width:650px) /* version mobile menu point de rupture 650 */

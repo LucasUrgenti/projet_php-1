@@ -7,9 +7,10 @@
     </head>
     <body>
       <header class="header">
-        <h1> FreeNote </h1> <div> Login </div>
+        <h1> FreeNote </h1>
+        <div> Login </div>
       </header>
-      <section>
+      <section class="section">
         <p>
           Bienvenu sur FreeNote un réseau social d'un nouveau genre !
           Completez les phrases des autres de manière  super drôle, super chouettos !
