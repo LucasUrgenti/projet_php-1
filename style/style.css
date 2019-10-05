@@ -10,7 +10,9 @@ body {
 
 .div_central {
   display: flex;
-
+}
+.aside {
+  float : left; 
 }
 .section {
   display: flex;
