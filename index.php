@@ -2,15 +2,12 @@
   <html>
     <head lang="fr">
       <meta charset="UTF-8">
-      <link rel="stylesheet" href="www/projet_php/style/style.css">
+      <link rel="stylesheet" href="style/style.css">
       <title> FreeNote </title>
     </head>
     <body>
       <header class="header">
-        <h1> FreeNote </h1>
-        <div>
-          login
-        </div>
+        <h1> FreeNote </h1> <div> Login </div>
       </header>
       <section>
         <p>
