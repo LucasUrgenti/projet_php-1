@@ -1,10 +1,16 @@
 body {
-    display: flex; 
+    display: flex;
+    flex-direction :column;
     background-color: lightgrey;
 }
 .header {
     display: flex;
     justify-content: flex-start;
+}
+
+.div_central {
+  display: flex;
+  
 }
 .section {
   display: flex;
