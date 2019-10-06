@@ -4,25 +4,26 @@ body {
     background-color: lightgrey;
     color : white;
 }
-.header {
-    display: flex;
-    justify-content: flex-start;
-    background-color: #030303;
-}
-
-.div_central {
-  display: flex;
-}
-.aside {
-  background-color: #2F4F4F;
-}
-.section {
-  display: flex;
-  justify-content: center;
-  margin: 200px;
-}
 
 @media screen and (max-width:650px) /* version mobile menu point de rupture 650 */
 {
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #030303;
+  }
+
+  .div_central {
+    display: flex;
+  }
+  .aside {
+    background-color: #2F4F4F;
+
+  }
+  .section {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+  }
 
 }
