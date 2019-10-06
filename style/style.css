@@ -1,29 +1,67 @@
 body {
     display: flex;
     flex-direction :column;
-    background-color: lightgrey;
+    background-color: #778899;
     color : white;
+    font-family: 'Schoolbell', cursive;
 }
 
 @media screen and (max-width:650px) /* version mobile menu point de rupture 650 */
 {
   .header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    /*justify-content: flex-start;*/
     background-color: #030303;
   }
+  .h1_freeNote
+  {
+      font-family: 'Permanent Marker', cursive;
+      margin-left : 10px;
 
-  .div_central {
+  }
+  .h1_freeNote a {
+    display: block;
+    text-decoration: none;
+    color : #fff;
+  }
+  #ul_topBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    transition: background-color 1s;
+  }
+  #ul_topBar:hover {
+    background-color:#778899;
+  }
+  #li_topBar {
+  }
+  #li_topBar a {
+    display: block;
+    color : #fff;
+    text-decoration: none;
+    padding:  35px;
+  }
+
+.div_central {
     display: flex;
   }
   .aside {
     background-color: #2F4F4F;
+    padding: 15px;
 
   }
   .section {
     display: flex;
     justify-content: center;
-    margin: 100px;
+    margin: 25px 15px;
   }
+  .footer
+  {
+    background-color: #030303;
+  }
+
 
 }
