@@ -12,29 +12,27 @@
 
       <script type="text/javascript">
           function testSwipe()   {
-          var div = document.getElementById('test'),
+          var div = document.getElementById('hide_form'),
           display = getComputedStyle(div, null).display;
 
           if(display == "block")  {
-              document.getElementById("test").style.display = "none";
+              document.getElementById("hide_form").style.display = "none";
           }
           else {
-              document.getElementById("test").style.display = "block";
+              document.getElementById("hide_form").style.display = "block";
             }
           }
       </script>
 
 
       <header class="header">
-        <h1 class="h1_freeNote"> <a href="index.php"> FreeNote </a> </h1>
+        <div>  </div> <!-- div pour centrer le titre-->
+        <div id="div_title">
+          <h1 class="h1_freeNote"> <a href="index.php"> FreeNote </a> </h1>
+        </div>
         <ul id="ul_topBar">
-          <li id="li_topBar" onclick="testSwipe()"> Login </a> </li>
-          <div id="test">
-            <form id = "form_login">
-              <li id="li_topBar"> test </li>
-            </form>
-          </div>
           <li id="li_topBar"> <a href="inscription.php"> inscription </a> </li>
+          <li id="li_topBar" onclick="testSwipe()"> Login </a> </li>
         </ul>
       </header>
       <div class="div_central">
@@ -63,12 +61,26 @@
           </p>
         </article>
         </section>
+        <div id="div_hide_form">
+          <div id="hide_form">
+            <form id = "form_login">
+              <input type="text" name="" value="" placeholder="login" id="input_form">  <br>
+              <input type="password" name="" value="" placeholder="password" id="input_form">  <br>
+              <input type="submit" name="" value="submit" id="input_form">
+            </form>
+          </div>
+        </div>
       </div><!--div central -->
       <footer class="footer">
-        <a href="https://github.com/leo-dalloz" > Léo Dalloz </a>
-        <a href="https://github.com/jeremy-pouzargues" > Jérémy Pouzargues  </a>
-        <a href="https://github.com/laurent-vouriot" > Laurent Vouriot </a>
-        <a href="https://github.com/audreywagner" > Audrey Wagner </a>
+        <div id="div_liens_github">
+          <a href="https://github.com/leo-dalloz" > Léo Dalloz </a>
+          <a href="https://github.com/jeremy-pouzargues" > Jérémy Pouzargues  </a>
+          <a href="https://github.com/laurent-vouriot" > Laurent Vouriot </a>
+          <a href="https://github.com/audreywagner" > Audrey Wagner </a>
+        </div>
+
+        <span id="span_footer"> projet php S3 2019 </span>
+
       </footer>
     </body>
   </html

@@ -1,9 +1,16 @@
+
 body {
     display: flex;
     flex-direction :column;
-    background-color: #778899;
-    color : white;
+    background-color: #fff;
+    color : #000;
     font-family: 'Schoolbell', cursive;
+    margin: 0;
+    padding: 0;
+}
+a {
+  text-decoration: none;
+  color : #fff;
 }
 
 @media screen and (max-width:650px) /* version mobile menu point de rupture 650 */
@@ -11,46 +18,79 @@ body {
   .header {
     display: flex;
     justify-content: space-between;
-    /*justify-content: flex-start;*/
-    background-color: #030303;
+    background-color: #32CD32;
+  }
+  #div_title
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .h1_freeNote
   {
+      font-size : 60px;
       font-family: 'Permanent Marker', cursive;
-      margin-left : 10px;
+      margin: 10px;
+      color : #000;
 
   }
-  .h1_freeNote a {
-    display: block;
-    text-decoration: none;
-    color : #fff;
-  }
+
   #ul_topBar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-    transition: background-color 1s;
+    background-color:  #90EE90	;
   }
-  #ul_topBar:hover {
-    background-color:#778899;
-  }
-  #li_topBar {
-  }
-  #li_topBar a {
+
+  #li_topBar   {
     display: block;
-    color : #fff;
-    text-decoration: none;
     padding:  35px;
+    text-align: center;
+    border: solid 1px  #32CD32;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: background-color .5s;
+    color : #fff;
   }
+  #li_topBar:hover  {
+    background-color: #3CB371;
+  }
+  #hide_form
+  {
+    display: none;
+
+  }
+  #div_hide_form {
+    justify-content: flex-end;
+    display: flex;
+    border : solid 3px  #90EE90;
+    background-color: #32CD32;
+    margin-bottom: 150px;
+
+  }
+   #form_login
+   {
+     display: flex;
+     flex-direction: column;
+     margin-top: 2.5px;
+     margin-bottom: 2.5px;
+     padding:  35px;
+   }
+   #input_form {
+     margin-top: 2.5px;
+     margin-bottom: 2.5px;
+   }
 
 .div_central {
     display: flex;
   }
   .aside {
-    background-color: #2F4F4F;
+    background-color: #90EE90;
     padding: 15px;
+    color : #fff;
 
   }
   .section {
@@ -60,8 +100,18 @@ body {
   }
   .footer
   {
-    background-color: #030303;
+    background-color: #32CD32;
+    display: flex;
+    justify-content: flex-start;
   }
-
-
+  #div_liens_github
+  {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+  }
+  #span_footer
+  {
+    font-size: 11px;
+  }
 }
